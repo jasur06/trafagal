@@ -75,6 +75,14 @@
     display: block;
   }
 
+  .hero-title {
+    font-size: 30px;
+  }
+
+  .hero-description {
+    font-size: 15px;
+  }
+
   .leading-img {
     width: 400px;
   }
