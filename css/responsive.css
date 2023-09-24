@@ -9,16 +9,8 @@
     max-width: 960px;
   }
 
-  .hero-image img, .download-image img {
-    width: 300px;
-  }
-
   .leading-heading {
     font-size: 30px;
-  }
-
-  .check-img> img{
-    width: 300px;
   }
 }
 
@@ -78,6 +70,10 @@
     font-size: 15px;
   }
 
+  .hero-image img, .download-image img {
+    width: 300px;
+  }
+
   .leading-img {
     width: 300px;
   }
@@ -107,6 +103,10 @@
 
   .check-title {
     margin-bottom: 30px;
+  }
+
+  .check-title img{
+    width: 300px;
   }
 
   .footer {
