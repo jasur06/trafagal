@@ -3,35 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./fonts/Mulish-Regular.ttf">
-    <link rel="stylesheet" href="./fonts/Mulish-Bold.ttf">
-    <link rel="stylesheet" href="./fonts/Mulish-Light.ttf">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./fonts/Mulish-Regular.ttf" />
+    <link rel="stylesheet" href="./fonts/Mulish-Bold.ttf" />
+    <link rel="stylesheet" href="./fonts/Mulish-Light.ttf" />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <!-- <link rel="stylesheet" href="./css/minifire.css"> -->
-    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/responsive.css" />
     <title>Trafalgar</title>
-
- 
   </head>
 
-  
   <body>
     <!-- Header -->
     <header>
       <div class="container">
         <div class="header-info">
           <div class="main-header__brand">
-           <a href="index.html">
-              <img src="./images/logo-header.svg" alt="">
-           </a>
+            <a href="index.html">
+              <img src="./images/logo-header.svg" alt="logo" />
+            </a>
           </div>
-        
-          
 
           <nav>
             <ul class="nav-list">
-              <li class="nav-list-item ">
-                <a id="active" href="#">home</a>
+              <li class="nav-list-item">
+                <a id=" " href="#">home</a>
               </li>
               <li class="nav-list-item">
                 <a href="#">Find a doctor</a>
@@ -41,12 +44,20 @@
               </li>
               <li class="nav-list-item">
                 <a href="#">Testimonials</a>
+                <ul class="dropdown">
+                  <li>1dropdown</li>
+                  <li>2dropdown</li>
+                  <li>3dropdown</li>
+                </ul>
               </li>
               <li class="nav-list-item">
                 <a href="#">About us</a>
               </li>
             </ul>
           </nav>
+
+          <labelr class="header_menu" for="menu_chekd"><i class="fa-solid fa-2x fa-bars"></i></labelr>
+          <input id="menu_chekd" type="checkbox" />
         </div>
       </div>
     </header>
@@ -54,7 +65,7 @@
 
     <!-- Main  -->
     <main>
-    <!-- Hero Section -->
+      <!-- Hero Section -->
       <section class="hero">
         <div class="container">
           <div class="hero-content">
@@ -75,8 +86,8 @@
               <img
                 src="./images/hero-logo.png"
                 alt="saasdas"
-                width="100%"
-                height="100%"
+                width="693"
+                height="583"
               />
             </div>
           </div>
@@ -178,7 +189,7 @@
               <img
                 src=".//images/trafalgar-illustration sec02 1.png"
                 alt="img"
-                width="650px"
+                width="600px"
                 height="477px"
               />
             </div>
@@ -221,7 +232,8 @@
             <div class="download-image">
               <img
                 src="./images/trafalgar-illustration sec03 1.jpg"
-                alt="saasdas"/>
+                alt="saasdas"
+              />
             </div>
           </div>
         </div>
@@ -236,11 +248,9 @@
 
             <hr class="customer-border" />
 
-
             <div class="customer-client">
-
               <div class="costumer-contact">
-                <img src="./images/klient.jpg" alt=" klient" />
+                <img style="border-radius: 50%;" src="./images/klient.jpg" width="141" height="141" alt=" klient" />
 
                 <div class="customer-name">
                   <h3>Edward Newgate</h3>
@@ -248,16 +258,13 @@
                 </div>
               </div>
 
-             
-                <p class="customer-prgph">
-                  “Our edicated patient engagement app and 
-                  web portal allow you to access information instantaneously (no
-                  tedeous form, long calls, or administrative hassle) and
-                  securely”
-                </p>
-             </div>
-            </div> 
-        
+              <p class="customer-prgph">
+                “Our edicated patient engagement app and web portal allow you to
+                access information instantaneously (no tedeous form, long calls,
+                or administrative hassle) and securely”
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <!-- /Customer Section -->
@@ -265,19 +272,17 @@
       <!-- arrow-section -->
       <section class="arrow-section">
         <div class="container">
-        <div class="arrow-line">
-        
+          <div class="arrow-line">
             <p class="div">
-              <img src="./images/Frame (5).jpg " alt="line"/>
+              <img src="./images/Frame (5).jpg " alt="line" />
             </p>
             <p class="line2">
-              <img src="./images/slider.jpg" alt="line2"/>
+              <img src="./images/slider.jpg" alt="line2" />
             </p>
             <p class="line3">
-              <img src="./images/Frame (6).jpg" alt="line3"/>
+              <img src="./images/Frame (6).jpg" alt="line3" />
             </p>
-          
-        </div>
+          </div>
         </div>
       </section>
       <!--/arrow-section -->
@@ -286,27 +291,29 @@
       <section class="check-section">
         <div class="container">
           <div class="check-info">
-              <div class="check">
-
-                <h2 class="paragraph"> Check out our latest article</h2>
-                <hr class="check-hr">
-              </div>
+            <div class="check">
+              <h2 class="paragraph">Check out our latest article</h2>
+              <hr class="check-hr" />
+            </div>
           </div>
 
-          
           <ul class="check-title">
             <li class="check-img">
-              <img src="./images/image 2.jpg" alt="lupa" />
+              <img src="./images/image 2.jpg"  width="350" alt="lupa" />
               <div>
-                <h3 class="check-heading">Disease detection, check  up in the laboratory </h3>
+                <h3 class="check-heading">
+                  Disease detection, check up in the laboratory
+                </h3>
 
-                <p class="check-prgph" >
-                  In this case, the role of the health<br> laboratory is very important<br> to do a disease detection...
+                <p class="check-prgph">
+                  In this case, the role of the health<br />
+                  laboratory is very important<br />
+                  to do a disease detection...
                 </p>
 
                 <p class="check-red">
                   Read more
-                  <img src="./images/Frame (8).jpg" alt="arrow">
+                  <img src="./images/Frame (8).jpg" width="14" alt="arrow" />
                 </p>
               </div>
             </li>
@@ -314,35 +321,39 @@
             <li class="check-img">
               <img src="./images/image 2 (1).jpg" alt="lupa" />
               <div>
-                <h3 class="check-heading">Herbal medicines that are <br>
+                <h3 class="check-heading">
+                  Herbal medicines that are <br />
                   safe for consumption
                 </h3>
 
                 <p class="check-prgph">
-                  Herbal medicine is very widely used<br> at this time because of its very good<br> for your health...
+                  Herbal medicine is very widely used<br />
+                  at this time because of its very good<br />
+                  for your health...
                 </p>
                 <p class="check-red">
                   Read more
-                  <img src="./images/Frame (8).jpg" alt="arrow">
+                  <img src="./images/Frame (8).jpg" width="14" alt="arrow" />
                 </p>
               </div>
             </li>
 
             <li class="check-img">
-              <img src="./images/image 3.jpg" alt="lupa"> 
+              <img src="./images/image 3.jpg" width="300" alt="lupa" />
               <div>
                 <h3 class="check-heading">
-                  Natural care for healthy <br>facial skin
+                  Natural care for healthy <br />facial skin
                 </h3>
 
                 <p class="check-prgph">
-                  A healthy lifestyle should start from<br> now and also for your skin health.<br>
+                  A healthy lifestyle should start from<br />
+                  now and also for your skin health.<br />
                   There are some...
                 </p>
 
                 <p class="check-red">
                   Read more
-                  <img src="./images/Frame (8).jpg" alt="arrow">
+                  <img src="./images/Frame (8).jpg" width="14" alt="arrow" />
                 </p>
               </div>
             </li>
@@ -358,7 +369,6 @@
     <!-- Footer  -->
     <footer class="footer">
       <div class="container">
-
         <div class="footer-content">
           <div class="footer-info">
             <p>
@@ -403,7 +413,6 @@
             </li>
           </ul>
         </div>
-
       </div>
     </footer>
     <!-- /Footer -->
