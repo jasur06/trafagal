@@ -9,11 +9,8 @@
     max-width: 960px;
   }
 
-  .hero-image img,
-  .leading-info img,
-  .download-image img {
-    width: 500px;
-    height: 450px;
+  .hero-image img, .download-image img {
+    width: 400px;
   }
 
   .leading-heading {
@@ -78,6 +75,10 @@
     display: block;
   }
 
+  .leading-img {
+    width: 400px;
+  }
+
   .customer-info {
     padding: 10px;
   }
@@ -94,7 +95,7 @@
   .customer-prgph{
     font-size: 20px;
     margin: 0;
-  }
+  } 
 
   .footer {
     padding: 50px;
