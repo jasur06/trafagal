@@ -52,11 +52,6 @@
     flex-direction: column;
   }
 
-  .check-title{
-    flex-direction: column;
-    width: 100%;
-  }
-
   .footer-content{
     flex-direction: column;
   }
@@ -104,6 +99,15 @@
     font-size: 20px;
     margin: 0;
   } 
+
+  .check-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .check-title {
+    margin-bottom: 30px;
+  }
 
   .footer {
     padding: 50px;

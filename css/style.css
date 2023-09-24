@@ -14,6 +14,11 @@ body {
   margin: 0 auto;
 }
 
+h1 h2 h3 h4 h5 p {
+  margin: 0 auto;
+  padding: 0; 
+} 
+
 /* header  */
 header {
   padding: 20px 0;
@@ -104,9 +109,8 @@ input[type='checkbox']{
 }
 
 /* Hero Styles */
-
 .hero {
-  margin-top: 100px;
+  margin-bottom: 169px;
 }
 
 .hero-content {
@@ -159,16 +163,17 @@ input[type='checkbox']{
 
 /* Our Services Styles */
 .service {
-  margin-top: 163px;
+  margin-bottom: 200px;
 }
 
 .service-title {
   text-align: center;
   color: #000;
-  font-family: Mulish;
+  font-family: Muli;
   font-size: 36px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 56px; 
 }
 
 .service-description {
@@ -233,7 +238,8 @@ input[type='checkbox']{
 
 /* Leading Styles */
 .leading {
-  padding: 200px 0;
+  margin-bottom: 200px;
+
 }
 
 .leading-info {
@@ -385,41 +391,31 @@ input[type='checkbox']{
   margin-bottom: 200px;
 }
 
-.check-info {
+.check-data {
+  margin-bottom: 72px;
+}
+
+.check-card {
   display: flex;
-  justify-content: center;
-}
-
-.check {
-  color: black;
-  margin-bottom: 25px;
-}
-
-.check-hr {
-  margin-bottom: 20px;
-  width: 56px;
-  height: 2px;
+  justify-content: space-between;
+  margin-bottom: 69px;
 }
 
 .check-title {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  width: 340px;
+  height: 512px;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+
 }
 
-.check-img {
-  width: calc((100% - 40px) / 3);
-  padding: 1px 9px;
-  border-radius: 20px;
-  background: white;
-  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+.check-body {
+  padding: 21px 50px 35px 33px;
 }
 
 .check-heading {
+  margin-bottom: 12px;
   color: #000;
   font-family: Muli;
   font-size: 21px;
@@ -428,31 +424,52 @@ input[type='checkbox']{
   line-height: 32px;
 }
 
-.check-prgph {
-  color: #7d7987;
+.check-paragrapg {
+  color: #7D7987;
+  font-family: Muli;
   font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px; 
 }
 
-.check-red {
-  color: #4089ed;
+.check-a {
+  color: #4089ED;
+  font-family: Muli;
   font-size: 17px;
+  font-style: normal;
   font-weight: 600;
   line-height: 28px;
+  text-decoration: none;
+}
+
+.check-hr {
+  margin-bottom: 20px;
+  width: 56px;
+  height: 2px;
+}
+
+.check-heading {
+  margin: 0;
 }
 
 .check-btn-box {
-  margin-top: 69px;
   text-align: center;
 }
 
 .check-btn {
   border-radius: 55px;
-  background-color: white;
-  color: #458ff6;
-  border: 1.4px solid #458ff6;
+  background-color: rgb(28, 8, 248);
+  color: #ffffff;
+  border:none;
   width: 200px;
   height: 56px;
   cursor: pointer;
+}
+
+.check-btn:hover {
+  background-color:#1f1534;
+  transition: all .3s ease-in-out;
 }
 
 /* /check-section */
